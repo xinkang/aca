@@ -1,6 +1,13 @@
 Introduction
 ------------
-This page contains software and instructions for Aligned Cluster Analysis (ACA) [1] and its hierarchical version (HACA) [2]. All the functions have been written and documented in Matlab format. We additionally provide C++ implementations of some dynamic programming routines which involve many loops and are notoriously slow in Matlab.
+
+This page contains software and instructions for
+[Aligned Cluster Analysis (ACA)](http://www.f-zhou.com/tc.html) [1]
+and its [hierarchical version (HACA)](http://www.f-zhou.com/tc.html)
+[2]. All the functions have been written and documented in Matlab
+format. We additionally provide C++ implementations of some dynamic
+programming routines which involve many loops and are notoriously slow
+in Matlab.
 
 [1] F. Zhou, F. de la Torre, and J. K. Hodgins, "Aligned cluster analysis for temporal segmentation of human motion," in International Conference on Automatic Face and Gesture Recognition (FG), 2008.
 
