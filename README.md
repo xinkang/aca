@@ -20,7 +20,7 @@ Installation
 
 Instructions
 ------------
-The package of aca.zip contains three folders, two setup files and three demo files. 
+The package of aca.zip contains three folders, two setup files and three demo files.
 ./data: This folder contains motion capture data.
 ./src: This folder contains the main implmentation of ACA and HACA.
 ./lib: This folder contains some necessary library functions.
@@ -34,22 +34,27 @@ The package of aca.zip contains three folders, two setup files and three demo fi
 
 Other Tips
 ----------
-    For each C++ code, we provide its corresponding Matlab version. For instance, you can use "acaFordSlow.m" instead of "acaFord.cpp". They have the same interface in both input and output. The C++ code is faster to obtain result while the Matlab version is easier to understand and debug.
-    For the DTAK algorithm and ACA algorithm, we also provide a version in which each searching step in dynamic programming can be locally constrained. Although we didn't use this feature in our paper, we found it is useful to obtain a robust alignment and to speedup the algorithm. Please refer to [3] [4] for more details on constraints in Dynamic Time Warping (DTW).
-        [3] S. Salvador and P. Chan, "Toward accurate Dynamic Time Warping in linear time and space," in Intelligent Data Analysis, 2007, pp. 561-580.
-        [4] L. Rabiner and B.-H. Juang, "Fundamentals of speech recognition," Prentice Hall, 1993.
+For each C++ code, we provide its corresponding Matlab version. For instance, you can use "acaFordSlow.m" instead of "acaFord.cpp". They have the same interface in both input and output. The C++ code is faster to obtain result while the Matlab version is easier to understand and debug.
+
+For the DTAK algorithm and ACA algorithm, we also provide a version in which each searching step in dynamic programming can be locally constrained. Although we didn't use this feature in our paper, we found it is useful to obtain a robust alignment and to speedup the algorithm. Please refer to [3] [4] for more details on constraints in Dynamic Time Warping (DTW).
+
+[3] S. Salvador and P. Chan, "Toward accurate Dynamic Time Warping in linear time and space," in Intelligent Data Analysis, 2007, pp. 561-580.
+
+[4] L. Rabiner and B.-H. Juang, "Fundamentals of speech recognition," Prentice Hall, 1993.
 
 
 
 
 Copyright
 ---------
-    This software is free for use in research projects. If you publish results obtained using this software, please use this citation.
-@inproceedings{Zhou_2008_6155,
-   author    = {Feng Zhou and Fernando De la Torre and Jessica K. Hodgins},
-   title     = {Aligned Cluster Analysis for Temporal Segmentation of Human Motion},
-   booktitle = {IEEE Conference on Automatic Face and Gestures Recognition (FG)},
-   month     = {September},
-   year      = {2008},
-}
+This software is free for use in research projects. If you publish results obtained using this software, please use this citation.
+
+    @inproceedings{Zhou_2008_6155,
+    author    = {Feng Zhou and Fernando De la Torre and Jessica K. Hodgins},
+    title     = {Aligned Cluster Analysis for Temporal Segmentation of Human Motion},
+    booktitle = {IEEE Conference on Automatic Face and Gestures Recognition (FG)},
+    month     = {September},
+    year      = {2008},
+    }
+
 If you have any question, please feel free to contact Feng Zhou (zhfe99@gmail.com).
