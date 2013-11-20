@@ -28,14 +28,14 @@ Installation
 Instructions
 ------------
 The package of aca.zip contains three folders, two setup files and three demo files.
-./data: This folder contains motion capture data.
-./src: This folder contains the main implmentation of ACA and HACA.
-./lib: This folder contains some necessary library functions.
-./make.m: Matlab makefile for C++ code.
-./addPath.m: Adds the sub-directories into the path of Matlab.
-./demoToy.m: Segmentation of a synthetic sequence by ACA.
-./demoToyH.m: Segmentation of a synthetic sequence by HACA.
-./demoMocap.m: Segmentation of motion capture sequence by ACA and HACA. By using this function, you can obtain results similar to those shown here.
+- ./data: This folder contains motion capture data.
+- ./src: This folder contains the main implmentation of ACA and HACA.
+- ./lib: This folder contains some necessary library functions.
+- ./make.m: Matlab makefile for C++ code.
+- ./addPath.m: Adds the sub-directories into the path of Matlab.
+- ./demoToy.m: Segmentation of a synthetic sequence by ACA.
+- ./demoToyH.m: Segmentation of a synthetic sequence by HACA.
+- ./demoMocap.m: Segmentation of motion capture sequence by ACA and HACA. By using this function, you can obtain results similar to those shown here.
 
 
 
